@@ -1,0 +1,26 @@
+{
+  "name": "web-terminal-demo",
+  "version": "1.0.0",
+  "description": "An example of how to integrate Socket.io, Express, Xterm.js and Pty.js to build a live web terminal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelibaceta/web-terminal-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelibaceta/web-terminal-demo/issues"
+  },
+  "homepage": "https://github.com/joelibaceta/web-terminal-demo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-pty": "^0.7.7",
+    "socket.io": "^2.1.1",
+    "xterm": "^3.6.0"
+  }
+}
